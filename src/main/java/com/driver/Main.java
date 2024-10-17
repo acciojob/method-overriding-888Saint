@@ -23,5 +23,6 @@ public static class B extends A {
         return "Method is overridden in Extended class B";
     }
 }
+}
 
 
