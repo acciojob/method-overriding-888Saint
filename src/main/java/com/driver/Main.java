@@ -9,14 +9,14 @@ public class Main {
         System.out.println(obj.meth());  // This will call the method from class A
     }
 
-    class A {
+    public static class A {
     // Method in class A
     public String meth() {
         return "Invoking method from class A";
     }
 }
 
-class B extends A {
+public static class B extends A {
     // Overriding the meth() method from class A
     @Override
     public String meth() {
