@@ -4,13 +4,12 @@ public class Main {
     public static void main(String[] args) {
         // Create an object of class B
         B obj = new B();
-
+        B obj1 = new B();
         // Call the method from class A using class B object
         System.out.println(obj.meth());  // This will call the method from class A
     }
-}
 
-class A {
+    class A {
     // Method in class A
     public String meth() {
         return "Invoking method from class A";
@@ -24,3 +23,5 @@ class B extends A {
         return "Method is overridden in Extended class B";
     }
 }
+
+
