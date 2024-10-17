@@ -6,7 +6,7 @@ public class Main {
         B obj = new B();
         B obj1 = new B();
         // Call the method from class A using class B object
-        System.out.println(obj.meth());  // This will call the method from class A
+        //System.out.println(obj.meth());  // This will call the method from class A
     }
 
     public static class A {
